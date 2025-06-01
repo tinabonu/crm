@@ -37,7 +37,7 @@ export default function LoginPage() {
 
     // Demo uchun
     setTimeout(() => {
-      if (username === "umarova@gmail.com" && password === "adminbonu123") {
+      if (username === "admin" && password === "2005") {
         router.push("/dashboard")
       } else {
         setError("Login yoki parol noto'g'ri")
